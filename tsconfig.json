@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "counter": [
-        "dist/counter"
+      "@urmom/counter": [
+        "dist/urmom/counter"
       ],
-      "counter/*": [
-        "dist/counter/*"
+      "@urmom/counter/*": [
+        "dist/urmom/counter/*"
       ]
     }
   }
