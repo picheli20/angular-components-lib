@@ -1,19 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'lib-counter',
-  template: `
-    <p>
-      counter works!
-    </p>
-  `,
+  templateUrl: './counter.component.html',
   styles: []
 })
-export class CounterComponent implements OnInit {
+export class CounterComponent {
+  counter = 0;
 
-  constructor() { }
-
-  ngOnInit() {
+  increase() {
+    this.counter++;
   }
 
 }
