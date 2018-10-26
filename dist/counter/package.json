@@ -1,0 +1,21 @@
+{
+  "name": "counter",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "main": "bundles/counter.umd.js",
+  "module": "fesm5/counter.js",
+  "es2015": "fesm2015/counter.js",
+  "esm5": "esm5/counter.js",
+  "esm2015": "esm2015/counter.js",
+  "fesm5": "fesm5/counter.js",
+  "fesm2015": "fesm2015/counter.js",
+  "typings": "counter.d.ts",
+  "metadata": "counter.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
