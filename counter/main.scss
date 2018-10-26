@@ -1,0 +1,25 @@
+/**
+$color-pallete: (
+  color: #fff,
+  contrast: (
+    500: #000,
+  ),
+);
+*/
+
+
+@mixin counter($color-pallete) {
+    $contrast: map-get($color-pallete, contrast);
+  
+    .counter-button {
+      $level: 500;
+      color: map-get($contrast, $level);
+      background-color: map-get($color-pallete, $level);
+      font-size: 1.3rem;
+      border: 0;
+      border-radius: 5px;
+      padding: 10px;
+      min-width: 100px;
+    }
+  }
+  
