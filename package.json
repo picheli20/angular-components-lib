@@ -1,0 +1,19 @@
+{
+    "name": "@urmom/core",
+    "version": "0.1.0",
+    "peerDependencies": {
+      "@angular/common": "^7.0.0",
+      "@angular/core": "^7.0.0"
+    },
+    "main": "counter/bundles/urmom-counter.umd.js",
+    "module": "counter/fesm5/urmom-counter.js",
+    "es2015": "counter/fesm2015/urmom-counter.js",
+    "esm5": "counter/esm5/urmom-counter.js",
+    "esm2015": "counter/esm2015/urmom-counter.js",
+    "fesm5": "counter/fesm5/urmom-counter.js",
+    "fesm2015": "counter/fesm2015/urmom-counter.js",
+    "typings": "counter/urmom.d.ts",
+    "metadata": "counter/urmom-counter.metadata.json",
+    "sideEffects": false
+  }
+  
